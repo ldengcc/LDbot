@@ -9,11 +9,15 @@ Feature include
 ### DNS Lookup
 #### Forward Lookup
 ```
-/dns-lookup + DNS type + IP/Domain
+/dns-lookup + forward + Domain Name
 ```
 
 ![image](https://github.com/user-attachments/assets/f1b2644d-cbbd-4b18-b94c-28a2462a63c1)
 #### Reverse Lookup
+```
+/dns-lookup + reverse + IP
+```
+
 ![image](https://github.com/user-attachments/assets/e532d68e-c5be-4951-ad12-7b55d7ba15ef)
 ---
 ### IP Location Lookup
