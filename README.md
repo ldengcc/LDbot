@@ -1,5 +1,5 @@
 # About
-A Network tool discord bot.
+`A Netowrk Service Discord Bot`
 
 Feature include
 > - DNS Lookup
