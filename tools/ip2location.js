@@ -73,12 +73,6 @@ module.exports = async (targetIP,interaction) => {
     }
 )
   .setTimestamp();
-  // console.log('IP:', ip);
-  // console.log(`:flag_${country}:`);
-  // console.log('City:', city);
-  // console.log('Zip Code:', zipcode);
-  // console.log('Latitude:', latitude);
-  // console.log('Longitude:', longitude);
 await interaction.editReply({
   embeds: [embed],
 });

@@ -28,9 +28,4 @@ module.exports = async (interaction) => {
         embeds: [embed],
         ephemeral: true
     });
-
-    // await interaction.reply({
-    //     content: `機器人延遲：${latency} ms\nAPI 延遲：${apiPingDisplay}`,
-    //     ephemeral: true,
-    // });
 };

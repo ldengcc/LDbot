@@ -7,12 +7,12 @@ module.exports = async (targetdomain,interaction) => {
     const response = await fetch(apiUrl); // 等待 API 回應
     const data = await response.json(); // 解析 JSON
 
-    //註冊資訊
+    // IPV4 data collect
     const ipv4Records = data.dnsRecords
     .filter(record => record.dnsType === "A")
     .map(record => record.address)
     .join('\n') || 'N/A'; // 如果沒有結果，回傳 'N/A'
-
+    // IPV6 data collect
     const ipv6Records = data.dnsRecords
     .filter(record => record.dnsType === "AAAA")
     .map(record => record.address)

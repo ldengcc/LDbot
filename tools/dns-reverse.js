@@ -7,12 +7,13 @@ module.exports = async (targetIP,interaction) => {
     const response = await fetch(apiUrl); // 等待 API 回應
     const data = await response.json(); // 解析 JSON
 
-    //註冊資訊
+
+    const queryTime  = data.queryTime;
+    const ip = data.ipAddress;
+
     const records = data.dnsRecords[0];
     const name = records.name;
     const type = records.dnsType;
-    const queryTime  = data.queryTime;
-    const ip = data.ipAddress;
     const singleName = records.singleName;
 
     const embed = new EmbedBuilder()

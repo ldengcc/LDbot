@@ -1,22 +1,22 @@
 const { REST, Routes } = require('discord.js');
-const { botID,serverID,token } = require('../config.json');
+const { botID,token } = require('../config.json');
 const commands = [
   {
     name: 'ping',
     description: 'Bot Ping Test',
   },
-  {
-    name: 'speedtest',
-    description: 'IPerf3 Client Test',
-    options: [
-      {
-        type: 3, // STRING type
-        name: 'target',
-        description: 'Target Domain or IP',
-        required: true
-      }
-    ]
-  },
+  // {
+  //   name: 'speedtest',
+  //   description: 'IPerf3 Client Test',
+  //   options: [
+  //     {
+  //       type: 3, // STRING type
+  //       name: 'target',
+  //       description: 'Target Domain or IP',
+  //       required: true
+  //     }
+  //   ]
+  // },
   {
     name: 'ip2location',
     description: 'IP Address Location Lookup',
@@ -78,7 +78,7 @@ const rest = new REST({ version: '10' }).setToken(token);
   try {
     console.log('Started refreshing application (/) commands.');
 
-    await rest.put(Routes.applicationGuildCommands(botID, serverID), { body: commands });
+    await rest.put(Routes.applicationCommands(botID), { body: commands });
 
     console.log('Successfully reloaded application (/) commands.');
   } catch (error) {
