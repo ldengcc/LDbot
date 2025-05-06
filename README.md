@@ -1,6 +1,8 @@
 # 關於
 **一款整合了多項網路工具的Discord Bot**
 
+[English README](https://github.com/ldengcc/LDbot/blob/main/en-README.md)
+
 本專案基於java script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
 
 - 功能
