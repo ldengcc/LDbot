@@ -1,7 +1,7 @@
 # About
 **A Netowrk Service Discord Bot**
 
-本專案基於java script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
+This project is developed based on JavaScript and integrates common network tools into a Discord bot, allowing users to conveniently use them directly within Discord.
 
 - Features
   - DNS Lookup
