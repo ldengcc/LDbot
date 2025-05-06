@@ -27,12 +27,12 @@ This project is developed based on JavaScript and integrates common network tool
 ```
 /ip2location + IP
 ```
-![image](https://github.com/user-attachments/assets/a549bdb9-d740-4615-8f27-9df55e99a64b)
+![image](https://github.com/user-attachments/assets/b0ef556f-1556-49d2-90b2-5cf81d8f499a)
 ---
 ### WHOIS Lookup
 ```
 /whois + Doamin Name
 ```
+![image](https://github.com/user-attachments/assets/a549bdb9-d740-4615-8f27-9df55e99a64b)
 
-![image](https://github.com/user-attachments/assets/b0ef556f-1556-49d2-90b2-5cf81d8f499a)
 
