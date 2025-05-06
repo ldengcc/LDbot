@@ -1,10 +1,13 @@
 # About
-`A Netowrk Service Discord Bot`
+**A Netowrk Service Discord Bot**
 
-Feature include
-> - DNS Lookup
-> - IP Location Lookup
-> - Whois Lookup
+本專案基於java script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
+
+- Features
+  - DNS Lookup
+  - IP Location Lookup
+  - Whois Lookup
+
 # Preview
 ### DNS Lookup
 #### Forward Lookup
