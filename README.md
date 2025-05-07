@@ -1,9 +1,13 @@
+<p align="center"><img align="center" width="280" src="https://i.imgur.com/uF5EPSn.png"/></p>
+<h1 align="center">LDbot</h1>
+<h4 align="center">一款整合了多項網路工具的Discord Bot</h4>
+
+<hr>
 # 關於
-**一款整合了多項網路工具的Discord Bot**
 
 [English README](https://github.com/ldengcc/LDbot/blob/main/en-README.md)
 
-本專案基於java script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
+本項目基於Java Script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
 
 - 功能
   - DNS 正/反解析
