@@ -3,9 +3,10 @@
 <h4 align="center">一款整合了多項網路工具的Discord Bot</h4>
 
 <hr>
-# 關於
 
 [English README](https://github.com/ldengcc/LDbot/blob/main/en-README.md)
+
+# 關於
 
 本項目基於Java Script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
 
