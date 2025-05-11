@@ -8,12 +8,12 @@
 
 # 關於
 
-本項目基於Java Script開發，將常見的Network tool整合至Discord Bot，方便讓使用者能夠直接在Discord中使用。
+本項目基於 JavaScript 開發，旨在將常用的網路工具整合至 Discord Bot 中，使使用者能夠直接透過 Discord 介面輕鬆執行各項查詢操作，提升使用效率與便利性。
 
 - 功能
   - DNS 正/反解析
   - IP 資料查詢
-  - 域名註冊訊息查詢
+  - 域名註冊訊息查詢 (WHOIS)
 
 # 預覽
 ### DNS 整/反解析
